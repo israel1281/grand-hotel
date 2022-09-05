@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Montserrat&family=Poppins&display=swap");
+
+:root {
+  --title-font: "Bellefair", serif;
+  --heading-font: "Poppins", sans-serif;
+  --text-font: "Montserrat", sans-serif;
+  --nav-blue: #05042e;
+  --white: #ffffff;
+  --black: #000000;
+  --wheat: #fff8ee;
+  --brown: #c85807;
+  --dark-brown: #ee8a42;
+  --btn: #f8ecdb;
+  --active-blue: #0a2058;
+  --text-size: 0.9rem;
+  --title-size: 3.3rem;
+  --mini-size: 2rem;
+  --subtitle-size: 1.3rem;
+  --padding: 6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fefefe;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 1700px) {
+  :root {
+    --padding: 8rem;
+    --title-size: 2.2rem;
+  }
+  html {
+    font-size: 110%;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fefefe;
+    overflow-x: hidden;
+    padding: 0 13vw;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  :root {
+    --padding: 4rem;
+  }
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    --padding: 5rem;
+  }
+  html {
+    font-size: 86%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --padding: 1.5rem;
+    --title-size: 2.2rem;
+  }
+  html {
+    font-size: 83%;
+  }
+}
